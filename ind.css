@@ -1,0 +1,52 @@
+*{scroll-behavior: smooth;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-image: url('https://i.pinimg.com/originals/c2/67/df/c267df32be4af4334558d674c5b58d96.png');
+}
+.my-video{
+  height: 100vh;
+  background-color: #333;
+  color:black;
+}
+.my-video video{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.my-video h1{
+  background:transparent;
+  font-size:4vw;
+  letter-spacing: 4px;
+  font-family: "Sofia";
+  position: absolute;
+  z-index: 1;
+  left:50%;top:30%;
+  transform: translate(-50%,-50%);
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #332926, 0 0 40px #332926, 0 0 50px #332926, 0 0 60px #332926, 0 0 70px #332926;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #332926, 0 0 40px #332926, 0 0 50px #332926, 0 0 60px #332926, 0 0 70px #332926, 0 0 80px #332926;
+  }
+}
+section h1{
+  margin-top:10%;
+  text-align: center;
+}
+section{
+  height: 100vh;
+}
